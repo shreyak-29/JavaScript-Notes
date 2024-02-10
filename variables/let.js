@@ -1,4 +1,8 @@
-let num = 10;
-console.log(num);
-let num1 = 20;
-console.log(num1);
+function blockscope() {
+    let num = 10;
+    console.log(num);
+    }
+    let num = 20;
+    console.log(num);
+    blockscope();
+   
